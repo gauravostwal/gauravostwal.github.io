@@ -1,7 +1,7 @@
 export const skillContants = [
     {
         skillName: 'HTML5',
-        efficiency: '70%'
+        efficiency: '90%'
     },
     {
         skillName: 'CSS',
@@ -13,11 +13,11 @@ export const skillContants = [
     },
     {
         skillName: 'JAVASCRIPT',
-        efficiency: '70%'
+        efficiency: '80%'
     },
     {
         skillName: 'REACTJS',
-        efficiency: '90%'
+        efficiency: '95%'
     }, {
         skillName: 'REDUXJS',
         efficiency: '90%'
@@ -25,11 +25,11 @@ export const skillContants = [
     
     {
         skillName: 'NODEJS',
-        efficiency: '70%'
+        efficiency: '90%'
     },
     {
         skillName: 'EXPRESSJS',
-        efficiency: '70%'
+        efficiency: '90%'
     },
     {
         skillName: 'MONGODB',
@@ -37,7 +37,7 @@ export const skillContants = [
     },
     {
         skillName: 'POSGRESQL',
-        efficiency: '70%'
+        efficiency: '80%'
     },
     {
         skillName: 'PYTHON',

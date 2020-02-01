@@ -1,19 +1,24 @@
 import * as React from 'react';
 import { Link, Element } from 'react-scroll'
+import { connect } from 'react-redux';
+import { RouteComponentProps, withRouter } from 'react-router';
 
 const developerPhoto = require('../../assets/gaurav.jpg');
 
-export interface IFrontPageProps {
+export interface INavBarProps{
 
 }
-
-export interface IFrontPageState {
-
-}
-
 export class NavBar extends React.PureComponent {
     static identifier = 'front-page';
+    state = {
+      activeLink: 'about'
+    }
+    handleLink = (string) => {
+      this.setState({ activeLink: string });
+  }
     render () {
+        const {activeLink} = this.state
+        console.log(activeLink)
         return (
             <React.Fragment>
             <nav className="navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -27,9 +32,8 @@ export class NavBar extends React.PureComponent {
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="navbar-nav">
+                <ul className="d-none d-lg-block navbar-nav ">
                     <li className="nav-item">
-                    {/* <a className="nav-link js-scroll-trigger smoothscroll" href="#about">About</a> */}
                     <Link activeClass="active" className="nav-link js-scroll-trigger smoothscroll" to="about" spy={true} smooth={true} duration={500} >About</Link>
                     </li>
                     <li className="nav-item">
@@ -60,7 +64,13 @@ export class NavBar extends React.PureComponent {
                     <div className="subheading mb-5">Pune · Maharashtra, 411012 · (+91) 9403825035 ·
                       <a href="mailto:name@email.com">gauravostwal11@gmail.com</a>
                     </div>
-                    <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                    <p className="lead mb-5">
+                    "Building web apps is an art and HTTP is our stage to spread this positive art to the people" Thoroughly enjoy working with
+                     full stack web development that includes integrating various JavaScript 
+                     frameworks and back end technologies such as MongoDb, 
+                     SailsJs, ReactJs. 
+                     Love working on front end development using ReactJs and writing Typescript.
+                    </p>
                     <div className="social-icons">
                       <a href="#">
                         <i className="fab fa-linkedin-in"></i>

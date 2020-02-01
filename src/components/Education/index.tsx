@@ -30,7 +30,7 @@ export class Education extends React.PureComponent {
                 <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
                   <div className="resume-content">
                     <h3 className="mb-0">North Maharashtra University</h3>
-                    <div className="subheading mb-3">12th Board</div>
+                    <div className="subheading mb-3">Intermediate</div>
                   </div>
                   <div className="resume-date text-md-right">
                     <span className="text-primary">June 2012 - May 2014</span>

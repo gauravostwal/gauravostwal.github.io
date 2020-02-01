@@ -43,6 +43,43 @@ section.resume-section {
 .smoothscroll {
   cursor: pointer;
 }
+.skill-label {
+  font-size: 2em;
+}
+.workflow-content {
+  font-size: 1.4em;
+}
+.skills-details-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: inherit;
+  .skill-detail {
+      display: flex;
+      margin-right: 6em;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 7px;
+      .skill {
+        margin-right: 2em;
+        font-size: 1.2em;
+        font-weight: 800;
+      }
+      .progress-bar-container {
+          width: 50%;
+          background: #c49102;
+          height: 12px;
+          .filled-value {
+              background: #202E39;
+              height: 12px;
+          }
+      }
+  }
+  
+}
+.active {
+  color: white
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -51,6 +88,10 @@ section.resume-section {
         min-width: 18rem;
       }
     }
+    
+  }
+  .navbar-nav li {
+    float: none;
   }
 }
 @media (min-width: 992px) {

@@ -19,7 +19,14 @@ export class Experience extends React.PureComponent {
                     <div className="resume-content">
                       <h3 className="mb-0">Full Stack Developer</h3>
                       <div className="subheading mb-3">Coditas Technologies PVT LTD</div>
-                      <p className="description">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                      <p className="description">
+                      Working as a Full Stack developer for 
+                      developing web apps with JavaScript frameworks such as 
+                      React, ReduxJs and For Making Rest Apis with the help of SailsJs, 
+                      MongoDB, Postgresql and using Sass, Bootstrap for making web apps look 
+                      more professional with ES6 features and webpack 
+                      for making a bundle after all a low size bundle is all we want.
+                      </p>
                     </div>
                     <div className="resume-date text-md-right">
                       <span className="text-primary">Jun 2018 - Present</span>
@@ -30,7 +37,9 @@ export class Experience extends React.PureComponent {
                     <div className="resume-content">
                       <h3 className="mb-0">Project Intern</h3>
                       <div className="subheading mb-3">Anulom Technologies</div>
-                      <p className="description">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
+                      <p className="description">
+                        XYZ
+                      </p>
                     </div>
                     <div className="resume-date text-md-right">
                       <span className="text-primary">Jun 2017 - Apr 2018</span>
