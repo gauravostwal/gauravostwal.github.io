@@ -1,0 +1,220 @@
+.resume-container {
+    background: #f5f5f5;
+    margin: 24px 50px;
+    .top-container {
+        font-family: Raleway;
+        padding: 24px 50px;
+        background: #202E39;
+        .name-label {
+            font-size: 30px;
+            letter-spacing: 15px;
+            padding-bottom: 6px;
+            text-align: center;
+            color: #c49102;
+        }
+        .skill-label {
+            font-size: 15px;
+            letter-spacing: 8px;
+            text-align: center;
+            color: wheat;
+        }
+    }
+    .middle-container {
+        display: flex;
+        font-family: Raleway;
+        letter-spacing: 2px;
+        .middle-left-container {
+            flex-basis: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            background: #cccccc;
+
+            .profile-container {
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 50px;
+                .profile {
+                    font-family: Raleway;
+                    /* font-weight: 800; */
+                    font-size: 16px;
+                    letter-spacing: 3px;
+                    position: relative;
+                }
+                .profile:before{
+                    content: "";
+                    position: absolute;
+                    width: 46%;
+                    /* margin-top: 12px; */
+                    /* height: 1px; */
+                    top: 35px;
+                    bottom: 0;
+                    border-bottom: 2px solid grey;
+                }
+                
+                .description {
+                    font-family: Caveat;
+                    padding-top: 25px;
+                }
+                
+            }
+            .contact-container {
+                padding-right: 50px;
+                padding-left: 50px;
+                background: #cccccc;
+                
+                .contact {
+                    font-family: Raleway;
+                    /* font-weight: 800; */
+                    font-size: 16px;
+                    letter-spacing: 3px;
+                    position: relative;
+                }
+                .contact:before{
+                    content: "";
+                    position: absolute;
+                    width: 46%;
+                    /* margin-top: 12px; */
+                    /* height: 1px; */
+                    top: 35px;
+                    bottom: 0;
+                    border-bottom: 2px solid grey;
+                }
+                .details {
+                    font-family: Caveat;
+                    padding-top: 25px;
+                    .contact-labels-container {
+                        margin-bottom: 20px;
+                        .contact-labels {
+                            font-size: 15px;
+                            font-weight: 800;
+                            font-family: Raleway;
+                        }
+                    }
+                }
+            }
+        }
+        .middle-right-container {
+            padding: 50px;
+            .experience-container {
+                margin-bottom: 20px;
+                .experience {
+                    font-family: Raleway;
+                    font-size: 16px;
+                    letter-spacing: 3px;
+                    position: relative;
+                }
+                .experience:before{
+                    content: "";
+                    position: absolute;
+                    width: 46%;
+                    top: 35px;
+                    bottom: 0;
+                    border-bottom: 2px solid grey;
+                }
+                
+                .experience-data-container {
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 25px;
+                        .year {
+                            flex-basis: 100%;
+                            font-size: 15px;
+                        }
+                        .company-container {
+                        margin-left: 10px;
+                        .company-title {
+                            font-weight: 800;
+                        }
+                        .company-position {
+                            font-size: 13px;
+                        }
+                        .job-description {
+                            font-size: 12px;
+                            padding-top: 10px;
+                        }
+                    }
+                }
+            }
+            .skills-container {
+                .skill-label {
+                    font-family: Raleway;
+                    font-size: 16px;
+                    letter-spacing: 3px;
+                    position: relative;
+                }
+                .skill-label:before{
+                    content: "";
+                    position: absolute;
+                    width: 46%;
+                    top: 35px;
+                    bottom: 0;
+                    border-bottom: 2px solid grey;
+                }
+                .skills-details-container {
+                    padding-top: 25px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    max-height: 36vh;
+                    max-width: inherit;
+                    .skill-detail {
+                        display: flex;
+                        margin-right: 6em;
+                        align-items: center;
+                        justify-content: space-between;
+                        
+                        .skill {
+                            margin-right: 2em;
+                        }
+                        .progress-bar-container {
+                            width: 50%;
+                            background: #c49102;
+                            height: 10px;
+                            .filled-value {
+                                background: #202E39;
+                                height: 10px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .resume-container {
+        margin: 24px 18px;
+        .top-container {
+            padding: 24px 37px;
+            .name-label {
+                font-size: 18px;
+                letter-spacing: 7px;
+                padding-bottom: 6px;
+                
+            }
+            .skill-label {
+                font-size: 10px;
+                letter-spacing: 4px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .resume-container {
+        .top-container {
+            .name-label {
+                font-size: 18px;
+                letter-spacing: 4px;
+                padding-bottom: 6px;
+                
+            }
+            .skill-label {
+                font-size: 8px;
+                letter-spacing: 4px;
+            }
+        }
+    }
+}

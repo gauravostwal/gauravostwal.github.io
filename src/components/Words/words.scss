@@ -1,0 +1,39 @@
+.word-container {
+    margin: 10px 100px 0px 100px;
+    text-align: center;
+    
+}
+.card {
+    padding: 0px;
+    text-align: center;
+    background: #4595EC;
+    border: 1px solid #B0BEC5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 48px 48px 0px 48px;
+    .word {
+        padding: 15px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        /* display: flex; */
+        /* align-items: center; */
+        text-transform: uppercase;
+        color: white;
+    }
+    .meaning {
+        background: white;
+        padding: 23px;
+        height: 100px;
+    }
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 48px;
+}
+.button {
+    margin-top: 15px;
+}
