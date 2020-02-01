@@ -7,7 +7,7 @@ import { NavBar } from './components/NavBar/NavBar';
 import {Experience} from './components/Experience';
 import { Education } from './components/Education';
 import { Skills } from './components/Skills';
-import { Intrests } from './components/Intrests';
+import { Interests } from './components/Interests';
 import { Awards } from './components/Awards';
 
 ReactDOM.render(
@@ -17,7 +17,7 @@ ReactDOM.render(
         <Experience/>
         <Education />
         <Skills />
-        <Intrests />
+        <Interests />
         <Awards />
         </React.Fragment>
     </Provider>,

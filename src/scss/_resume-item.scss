@@ -40,6 +40,9 @@ section.resume-section {
   font-size: 2.15em;
   float: right;
 }
+.smoothscroll {
+  cursor: pointer;
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
