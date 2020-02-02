@@ -9,12 +9,14 @@ import { Education } from './components/Education';
 import { Skills } from './components/Skills';
 import { Interests } from './components/Interests';
 import { Awards } from './components/Awards';
+import { Projects } from './components/Projects';
 
 ReactDOM.render(
     <Provider store={store}>
         <React.Fragment>
         <NavBar/>
         <Experience/>
+        <Projects />
         <Education />
         <Skills />
         <Interests />

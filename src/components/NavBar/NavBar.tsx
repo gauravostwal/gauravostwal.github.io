@@ -45,6 +45,9 @@ export class NavBar extends React.PureComponent {
                     <Link activeClass="active" className="nav-link js-scroll-trigger smoothscroll" to="experience" spy={true} smooth={true} duration={500} >Experience</Link>
                     </li>
                     <li className="nav-item">
+                    <Link activeClass="active" className="nav-link js-scroll-trigger smoothscroll" to="projects" spy={true} smooth={true} duration={500} >Projects</Link>
+                    </li>
+                    <li className="nav-item">
                     <Link activeClass="active" className="nav-link js-scroll-trigger smoothscroll" to="education" spy={true} smooth={true} duration={500} >Education</Link>
                     </li>
                     <li className="nav-item">
@@ -69,24 +72,25 @@ export class NavBar extends React.PureComponent {
                     <div className="subheading mb-5">Pune · Maharashtra, 411012 · (+91) 9403825035 ·
                       <a href="mailto:name@email.com">gauravostwal11@gmail.com</a>
                     </div>
+                    <p className="lead mb-5"> 
+                    "An Engineer by qualification, a Software Developer by profession and a ML enthusiast by passion." 
+                    </p>
                     <p className="lead mb-5">
+                      
                     "Building web apps is an art and HTTP is our stage to spread this positive art to the people" Thoroughly enjoy working with
                      full stack web development that includes integrating various JavaScript 
-                     frameworks and back end technologies such as MongoDb, 
-                     SailsJs, ReactJs. 
-                     Love working on front end development using ReactJs and writing Typescript.
+                     frameworks and back end technologies such as PostgreSqlMongoDb, 
+                     SailsJs, NodeJS, ExpressJS. 
+                     Love working on front end development using ReactJs, ReduxJS, Sass and writing Typescript. 
                     </p>
                     <div className="social-icons">
-                      <a href="#">
+                      <a href="https://www.linkedin.com/in/gaurav-ostwal-a8227413a">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
-                      <a href="#">
+                      <a href="https://github.com/gauravostwal">
                         <i className="fab fa-github"></i>
                       </a>
-                      <a href="#">
-                        <i className="fab fa-twitter"></i>
-                      </a>
-                      <a href="#">
+                      <a href="https://www.facebook.com/gauravlikesu">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </div>
