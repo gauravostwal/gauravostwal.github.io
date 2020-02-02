@@ -11,6 +11,19 @@
     }
   }
 }
+@media (max-width: 991px) {
+  .nav-collapse-contents {
+    display: none !important;
+    .navbar-nav {
+      margin-top: 50px;
+      margin-left: 20px;
+      float: none;
+    }
+  }
+  .open {
+    display: block !important;
+  }
+}
 
 @media (min-width: 992px) {
   #sideNav {
@@ -42,6 +55,27 @@
 
       width: 100%;
       margin-bottom: auto;
+      .navbar-nav {
+        flex-direction: column;
+        margin-top: 100px;
+        width: 100%;
+        .nav-item {
+          display: block;
+          .nav-link {
+            display: block;
+            color: rgba(255,255,255,.5);
+            font-size: 15px
+          }
+          .active {
+            color: white;
+          }
+        }
+      }
+    }
+    .nav-collapse-contents {
+      margin-bottom: auto;
+      display: flex;
+      justify-content: center;
       .navbar-nav {
         flex-direction: column;
         margin-top: 100px;

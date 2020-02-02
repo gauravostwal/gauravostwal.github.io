@@ -11,14 +11,19 @@ export interface INavBarProps{
 export class NavBar extends React.PureComponent {
     static identifier = 'front-page';
     state = {
-      activeLink: 'about'
+      activeLink: 'about',
+      responsiveFlag: ''
     }
     handleLink = (string) => {
       this.setState({ activeLink: string });
-  }
+    }
+    handleShowMenu = () => {
+      const { responsiveFlag } = this.state;
+      this.setState({ responsiveFlag:  !responsiveFlag })
+    }
     render () {
-        const {activeLink} = this.state
-        console.log(activeLink)
+        const {responsiveFlag} = this.state
+        console.log(responsiveFlag)
         return (
             <React.Fragment>
             <nav className="navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
@@ -28,11 +33,11 @@ export class NavBar extends React.PureComponent {
                         <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={developerPhoto} alt="" />
                     </span>
                 </a>
-                <button className="navbar-toggler nav-bar-toggle-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler nav-bar-toggle-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={() => this.handleShowMenu()}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul className="d-none d-lg-block navbar-nav ">
+                <div className={`nav-collapse-contents ${responsiveFlag ? 'open': ''}`} id="navbarSupportedContent">
+                <ul className="navbar-nav">
                     <li className="nav-item">
                     <Link activeClass="active" className="nav-link js-scroll-trigger smoothscroll" to="about" spy={true} smooth={true} duration={500} >About</Link>
                     </li>
