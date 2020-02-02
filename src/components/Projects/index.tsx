@@ -52,7 +52,7 @@ export class Projects extends React.PureComponent {
                       </p>
                     </div>
                     <div className="resume-date text-md-right">
-                      <span className="text-primary">Jan 2019 - September 2019</span>
+                      <span className="text-primary">Jan 2019 - Sep 2019</span>
                     </div>
                   </div>
 
