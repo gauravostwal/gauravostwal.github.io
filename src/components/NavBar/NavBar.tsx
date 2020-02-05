@@ -87,9 +87,9 @@ export class NavBar extends React.PureComponent {
                       <a href="https://www.linkedin.com/in/gaurav-ostwal-a8227413a">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
-                      <a href="https://github.com/gauravostwal">
+                      {/* <a href="https://github.com/gauravostwal">
                         <i className="fab fa-github"></i>
-                      </a>
+                      </a> */}
                       <a href="https://www.facebook.com/gauravlikesu">
                         <i className="fab fa-facebook-f"></i>
                       </a>
