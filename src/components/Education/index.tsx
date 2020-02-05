@@ -23,7 +23,7 @@ export class Education extends React.PureComponent {
                     <div className="subheading mb-3">Bachelor of Engineering In Computer Science</div>
                   </div>
                   <div className="resume-date text-md-right">
-                    <span className="text-primary">August 2014 - June 2018</span>
+                    <span className="text-primary year">Aug 2014 - Jun 2018</span>
                   </div>
                 </div>
 
@@ -33,7 +33,7 @@ export class Education extends React.PureComponent {
                     <div className="subheading mb-3">Intermediate</div>
                   </div>
                   <div className="resume-date text-md-right">
-                    <span className="text-primary">June 2012 - May 2014</span>
+                    <span className="text-primary year">Jun 2012 - May 2014</span>
                   </div>
                 </div>
 

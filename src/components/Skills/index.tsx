@@ -6,7 +6,7 @@ export class Skills extends React.PureComponent {
   progressBar(widthValue){
     return (
         <div className="progress-bar-container">
-            <div className="filled-value" style={{ width: `${widthValue}`}}>
+            <div className="filled-value" style={{ width: `${widthValue}`}} title={`${widthValue}`}>
 
             </div>
         </div>

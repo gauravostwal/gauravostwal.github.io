@@ -79,7 +79,7 @@ export class NavBar extends React.PureComponent {
                       
                     "Building web apps is an art and HTTP is our stage to spread this positive art to the people" Thoroughly enjoy working with
                      full stack web development that includes integrating various JavaScript 
-                     frameworks and back end technologies such as PostgreSqlMongoDb, 
+                     frameworks and back end technologies such as PostgreSql, MongoDb, 
                      SailsJs, NodeJS, ExpressJS. 
                      Love working on front end development using ReactJs, ReduxJS, Sass and writing Typescript. 
                     </p>

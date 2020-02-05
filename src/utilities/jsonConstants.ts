@@ -36,7 +36,7 @@ export const skillContants = [
         efficiency: '90%'
     },
     {
-        skillName: 'POSGRESQL',
+        skillName: 'POSTGRESQL',
         efficiency: '80%'
     },
     {

@@ -30,7 +30,7 @@ export class Projects extends React.PureComponent {
                       </p>
                     </div>
                     <div className="resume-date text-md-right">
-                      <span className="text-primary">Oct 2019 - Present</span>
+                      <span className="text-primary year">Oct 2019 - Present</span>
                     </div>
                   </div>
 
@@ -54,7 +54,7 @@ export class Projects extends React.PureComponent {
                       </p>
                     </div>
                     <div className="resume-date text-md-right">
-                      <span className="text-primary">Jan 2019 - Sep 2019</span>
+                      <span className="text-primary year">Jan 2019 - Sep 2019</span>
                     </div>
                   </div>
                   <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -70,17 +70,36 @@ export class Projects extends React.PureComponent {
                       <p className="description">
                         <span className="role-label">Role: </span>
                         <span>
-                            Developer a highly reusable frontend using <span className="role-skill">REACT</span> and <span className="role-skill">REDUX</span> that is 
+                            Developed a highly reusable frontend using <span className="role-skill">REACT</span> and <span className="role-skill">REDUX</span> that is 
                             well wired up with BackEnd APIs using <span className="role-skill">AXIOS</span>, 
                             implements routing using <span className="role-skill">REACT-ROUTER</span> and <span className="role-skill">WEBPACK</span> for low size bundle
                         </span>
                       </p>
                     </div>
                     <div className="resume-date text-md-right">
-                      <span className="text-primary">Jun 2018 - Dec 2018</span>
+                      <span className="text-primary year">Jun 2018 - Dec 2018</span>
                     </div>
                   </div>
-                  
+                  <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="resume-content">
+                      <h3 className="mb-0">Sarcasm Detector</h3>
+                      <div className="subheading mb-3">Project Intern</div>
+                      <p className="description">
+                        Sarcasm Detector Engine helps to find whether a sentence is sarcastic or not. 
+                        It uses Recurrent Neural Network Model which is trained on twitter dataset using Python. 
+                      </p>
+                      <p className="description">
+                        <span className="role-label">Role: </span>
+                        <span>
+                            Developed a <span className="role-skill">RECURRENT NEURAL NETWORK MODEL</span> using  <span className="role-skill">TENSORFLOW</span> 
+                            and <span className="role-skill">PYTHON</span> to detect Sarcasm
+                        </span>
+                      </p>
+                    </div>
+                    <div className="resume-date text-md-right">
+                      <span className="text-primary year">Jun 2017 - Apr 2018</span>
+                    </div>
+                  </div>
                 </div>
               </section>
             </Element>

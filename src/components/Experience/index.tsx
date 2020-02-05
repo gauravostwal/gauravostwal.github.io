@@ -29,7 +29,7 @@ export class Experience extends React.PureComponent {
                       </p>
                     </div>
                     <div className="resume-date text-md-right">
-                      <span className="text-primary">Jun 2018 - Present</span>
+                      <span className="text-primary year">Jun 2018 - Present</span>
                     </div>
                   </div>
 
@@ -38,11 +38,12 @@ export class Experience extends React.PureComponent {
                       <h3 className="mb-0">Project Intern</h3>
                       <div className="subheading mb-3">Anulom Technologies</div>
                       <p className="description">
-                        XYZ
+                      Worked as a Project Intern for 
+                      developing a research Project named as Sarcasm Detector and explored the concepts of Deep Learning
                       </p>
                     </div>
                     <div className="resume-date text-md-right">
-                      <span className="text-primary">Jun 2017 - Apr 2018</span>
+                      <span className="text-primary year">Jun 2017 - Apr 2018</span>
                     </div>
                   </div>
 
