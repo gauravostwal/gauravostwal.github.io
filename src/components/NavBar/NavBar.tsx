@@ -70,7 +70,7 @@ export class NavBar extends React.PureComponent {
                       <span className="user-name text-primary">Gaurav</span>
                     </h1>
                     <div className="subheading mb-5">Pune · Maharashtra, 411012 · (+91) 9403825035 ·
-                      <a href="mailto:name@email.com">gauravostwal11@gmail.com</a>
+                      <a href="mailto:gauravostwal11@gmail.com">gauravostwal11@gmail.com</a>
                     </div>
                     <p className="lead mb-5"> 
                     "An Engineer by qualification, a Software Developer by profession and a ML enthusiast by passion." 

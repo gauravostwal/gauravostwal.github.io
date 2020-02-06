@@ -87,7 +87,7 @@ export class Projects extends React.PureComponent {
                       <p className="description">
                         Sarcasm Detector Engine helps to find whether a sentence is sarcastic or not. 
                         It uses Recurrent Neural Network Model which is trained on twitter dataset using Python. 
-                        Also Published a research paper for this project https://ieeexplore.ieee.org/document/8663147.
+                        Also Published a research paper for this project <a href="https://ieeexplore.ieee.org/document/8663147">https://ieeexplore.ieee.org/document/8663147</a>.
                       </p>
                       <p className="description">
                         <span className="role-label">Role: </span>
