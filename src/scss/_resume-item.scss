@@ -15,14 +15,20 @@ section.resume-section {
   
   .description {
     font-size: 1.3em;
+    color: #C4C5C7;
+  }
+  .surname {
+    color: white;
   }
   .intrests {
     font-size: 1.5em;
+    color: white;
   }
   .awards {
     li {
       font-size: 15px;
       margin-bottom: 5px;
+      color: white;
     }
   }
 }
@@ -64,13 +70,14 @@ section.resume-section {
         margin-right: 2em;
         font-size: 1.2em;
         font-weight: 800;
+        color: white;
       }
       .progress-bar-container {
           width: 50%;
-          background: #c49102;
+          background: white;
           height: 12px;
           .filled-value {
-              background: #202E39;
+              background: #BD5D38;
               height: 12px;
           }
       }
@@ -80,7 +87,7 @@ section.resume-section {
 .role-label {
   font-size: 14px;
   font-weight: 800;
-  color: #343a40; 
+  color: white; 
 }
 .role-skill {
   color: #BD5D38;
