@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Element } from 'react-scroll'
 import { skillContants } from 'src/utilities/jsonConstants'
-const redux = require('../../assets/redux.svg')
 export class Skills extends React.PureComponent {
   progressBar(widthValue){
     return (

@@ -1,7 +1,5 @@
 import * as React from 'react';
 import { Link, Element } from 'react-scroll'
-import { connect } from 'react-redux';
-import { RouteComponentProps, withRouter } from 'react-router';
 
 const developerPhoto = require('../../assets/gaurav.jpg');
 
